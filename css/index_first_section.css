@@ -1,0 +1,73 @@
+.first-section {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.123) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/bg-sport-header.jpg), #161616;
+
+}
+
+.title-text {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: var(--main-font);
+}
+
+.text-development {
+    color: #DFDFDF;
+    font-size: 24px;
+    font-family: var(--main-font);
+    padding: 10px 0px;
+}
+
+.text-number-first-section {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.text-card-discount {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    bottom: 55px;
+}
+
+.card-discount {
+    border: 5px solid #D54928;
+    text-align: center;
+    padding: 150px 20px;
+    margin: 50px;
+}
+
+.link-card-discount {
+    width: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #D54928;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+@media (max-width: 891px) {
+    .main-first-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-first-section {
+        text-align: center;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,83 @@
+.benefits-second-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title-second-section {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.text-second-section {
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 198.99%;
+    font-weight: bold;
+}
+
+.title-card-second-section {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.text-card-second-section {
+    font-size: 24px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    line-height: 198.99%;
+    margin-top: 70px;
+}
+
+.text-card-second-section-right {
+    position: relative;
+    bottom: 50px;
+}
+
+.benefits-icon {
+    background: #FFFFFF;
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    padding: 35px;
+    margin: 55px 0px;
+}
+
+.second-section-card {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-info-second-section {
+    background: linear-gradient(139.14deg, #D54929 0.3%, #E49380 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    height: 536px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.card-info-second-section-center {
+    height: 689px;
+}
+
+@media (max-width: 991px) {
+    .title-card-second-section {
+        font-size: 25px;
+    }
+
+    .text-card-second-section {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .second-section-card {
+        flex-direction: column;
+        align-items: center;
+    }
+}
