@@ -48,7 +48,6 @@
     justify-content: center;
 }
 
-
 .card-info-second-section {
     background: linear-gradient(139.14deg, #D54929 0.3%, #E49380 100%);
     display: flex;
@@ -63,6 +62,23 @@
 
 .card-info-second-section-center {
     height: 689px;
+}
+
+.link-second-section {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #D54928;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-container-second-section {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0;
 }
 
 @media (max-width: 991px) {
