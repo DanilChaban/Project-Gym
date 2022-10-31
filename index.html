@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<!-- FIRST SECTION -->
 <section class="first-section">
     <header class="header">
         <nav class="nav-menu first-section">
             <img class="nav__page-logo" src="img/logo-kolizey.svg" alt="Kolizey"/>
                 <div class="menu-item-container">
-                    <a class="menu-item" href="#">Про клуб</a>
+                    <a class="menu-item" href="#third-section">Про клуб</a>
                     <a class="menu-item" href="#">Фотогалерея</a>
-                    <a class="menu-item" href="#">Ціни</a>
-                    <a class="menu-item" href="#">Контакти</a>
+                    <a class="menu-item" href="#fifth-section">Ціни</a>
+                    <a class="menu-item" href="#footer">Контакти</a>
                 </div>
                 <div class="work-shedule">
                 <p>Пн-Пт 07:00 - 23:00</p>
@@ -36,8 +35,7 @@
     </div>
     </section>
     <main>
-        <!-- SECOND SECTION -->
-        <section class="second-section">
+        <section class="second-section" id="second-section">
             <div class="benefits-second-container">
             <h2 class="title-second-section">Наші переваги</h2>
             <p class="text-second-section">Ми організували зони клубу для вашого комфорту під час тренувань і відпочинку.</p>
@@ -64,8 +62,7 @@
             <a class="link-second-section" href="#">Тикай на кнопочку</a>
             </div>
         </section>
-        <!-- THIRD SECTION -->
-        <section class="third-section">
+        <section class="third-section" id="third-section">
             <div class="third-section-container">
             <div class="text-info-third-section">
             <div class="for-kolizey-container">
@@ -83,26 +80,26 @@
                 </div>
             </div>
         </section>
-        <section class="fourth-section">
+        <section class="fourth-section" id="fourth-section">
             <div class="title-fourth-container">
             <h2 class="title-fourth">Напрямки спортивного</h2>
             <h2 class="title-fourth">клубу KOLIZEY</h2>
             </div>
             <div class="card-directions-container">
             <div class="card-info-direction">
-                <img src="img/icon-direction.svg" alt="Direction"/>
+                <img class="icon-direction" src="img/icon-direction.svg" alt="Direction"/>
                 <p class=text-card-direction>Фітнес-бікіні</p>
             </div>
             <div class="card-info-direction">
-                <img src="img/icon-direction.svg" alt="Direction"/>
+                <img class="icon-direction"  src="img/icon-direction.svg" alt="Direction"/>
                 <p class="text-card-direction">Бодібілдинг</p>
             </div>
             <div class="card-info-direction">
-                <img src="img/icon-direction.svg" alt="Direction"/>
+                <img class="icon-direction"  src="img/icon-direction.svg" alt="Direction"/>
                 <p class="text-card-direction">Пауерліфтинг</p>
             </div>
                 <div class="card-info-direction">
-                    <img src="img/icon-direction.svg" alt="Direction"/>
+                    <img class="icon-direction" src="img/icon-direction.svg" alt="Direction"/>
                     <p class="text-card-direction">Армспорт</p>
                 </div>
             </div>
@@ -110,36 +107,49 @@
             <a class="link-fourth-section" href="#">Тикай на кнопочку</a>
             </div>
         </section>
-        <section class="fifth-section">
+        <section class="fifth-section" id="fifth-section">
                 <h2 class="title-price">Ціни</h2>
-            <div class="productsCarousel">
-                <button class="btnPrev">
-                    <svg class="press-arrow" viewBox="0 0 30 30">
-                        <defs>
-                            <path
-                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                    id="a-1662462789919"></path>
-                        </defs>
-                        <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
-                    </svg>
-                </button>
-                <div class="CarouselSlides"></div>
-                <button class="btnNext">
-                    <svg class="press-arrow" viewBox="0 0 30 30">
-                        <defs>
-                            <path
-                                    d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                                    id="a-1662462789919"></path>
-                        </defs>
-                        <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
-                    </svg>
-                </button>
+            <div class="card-price-container">
+            <div class="card-price">
+                <img class="image-price"src="img/benefits-icon.svg" alt="Icon Price"/>
+                <p class="package">12 тренувань</p>
+                <p class="package">(місячний)</p>
+                <p class="price">650 грн</p>
+            </div>
+            <div class="card-price card-price-center">
+                <img class="image-price" src="img/benefits-icon.svg" alt="Icon Price"/>
+                <p class="package">Ранковий 12 тренувань</p>
+                <p class="package">з 8:00-13:00</p>
+                <p class="price price-center">550 грн</p>
+            </div>
+            <div class="card-price">
+                <img class="image-price" src="img/benefits-icon.svg" alt="Icon Price"/>
+                <p class="package">Безліміт</p>
+                <p class="package">(місячний)</p>
+                <p class="price">750 грн</p>
+            </div>
             </div>
         </section>
     </main>
-<footer>
-
+<footer class="footer" id="footer">
+    <div class="footer-container">
+    <img class="logo-footer" src="img/logo-kolizey.svg" alt="Logo Kolizey"/>
+        <div class="networks">
+    <a href="https://www.facebook.com/" target="_blank">
+        <img class="icon-network" src="img/facebook-icon.png" alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+        <img class="icon-network" src="img/instagram-icon.png" alt="Instagram" .>
+    </a>
+        </div>
+        <div class="footer-info">
+    <div class="footer-work-shedule">
+        <p>Пн-Пт 07:00 - 23:00</p>
+        <p>Cб-Нд 09:00 - 22:00</p>
+    </div>
+            <a class="footer-number" href="#"><p>+38 097 13 100 39</p></a>
+    </div>
+    </div>
 </footer>
-<script src="carousel.js"></script>
 </body>
 </html>

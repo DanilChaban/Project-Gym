@@ -52,3 +52,14 @@
     display: flex;
     justify-content: center;
 }
+
+.card-price:hover {
+    transform: rotate(3.5deg);
+}
+
+@media (max-width: 950px) {
+    .card-price-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
