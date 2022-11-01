@@ -9,14 +9,14 @@
 }
 
 .text-card-direction {
-    color: #FFFFFF;
+    color: white;
     font-size: 24px;
     font-family: var(--main-font);
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .card-directions-container {
-    background-color: #161616;
+    background-color: black;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
     font-size: 20px;
     padding: 12px 30px;
     background-color: #D54928;
-    color: #FFFFFF;
+    color: white;
     text-decoration: none;
     text-align: center;
 }

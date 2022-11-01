@@ -13,18 +13,18 @@
     font-family: var(--main-font);
     font-size: 18px;
     line-height: 198.99%;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .title-card-second-section {
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .text-card-second-section {
     font-size: 24px;
     font-family: var(--main-font);
-    font-weight: bold;
+    font-weight: 600;
     line-height: 198.99%;
     margin-top: 70px;
 }
@@ -40,7 +40,7 @@
     height: 141px;
     border-radius: 50%;
     padding: 35px;
-    margin: 55px 0px;
+    margin: 55px 0;
 }
 
 .second-section-card {
@@ -74,7 +74,7 @@
     font-size: 20px;
     padding: 12px 30px;
     background-color: #D54928;
-    color: #FFFFFF;
+    color: white;
     text-decoration: none;
     text-align: center;
 }

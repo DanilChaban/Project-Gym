@@ -1,20 +1,20 @@
 .footer {
-    background-color: #161616;
+    background-color: black;
     padding: 100px;
     margin-top: 110px;
 }
 
 .footer-work-shedule {
-    color: #FFFFFF;
+    color: white;
     font-size: 20px;
     font-family: var(--main-font);
     line-height: 30px;
 }
 
 .footer-number {
-    color: #FFFFFF;
+    color: white;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 10px;
 }
 
@@ -25,11 +25,11 @@
 }
 
 .icon-network {
-    padding: 0px 35px;
+    padding: 0 35px;
 }
 
 .networks {
-    margin: 0px 450px;
+    margin: 0 450px;
 }
 
 @media (max-width: 1200px) {

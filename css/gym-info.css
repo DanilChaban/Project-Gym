@@ -4,28 +4,28 @@
 }
 
 .title-text {
-    color: #FFFFFF;
+    color: white;
     font-size: 32px;
     font-family: var(--main-font);
 }
 
 .text-development {
-    color: #DFDFDF;
+    color: white;
     font-size: 24px;
     font-family: var(--main-font);
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .text-number-first-section {
-    color: #FFFFFF;
+    color: white;
     font-size: 24px;
     font-family: var(--main-font);
     font-weight: 700;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .text-card-discount {
-    color: #FFFFFF;
+    color: white;
     font-size: 20px;
     line-height: 30px;
     position: relative;
@@ -44,7 +44,7 @@
     font-size: 20px;
     padding: 12px 30px;
     background-color: #D54928;
-    color: #FFFFFF;
+    color: white;
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 
 @media (max-width: 891px) {
