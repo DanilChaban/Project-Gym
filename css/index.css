@@ -1,8 +1,8 @@
 @import url(common.css);
 @import url(index_header_nav.css);
-@import url(index_first_section.css);
-@import url(index_second_section.css);
-@import url(index_third_section.css);
-@import url(index_fourth_section.css);
-@import url(index_fifth_section.css);
+@import url(gym-info.css);
+@import url(benefits.css);
+@import url(club-info.css);
+@import url(directions-sport-club.css);
+@import url(price.css);
 @import url(footer.css);

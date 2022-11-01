@@ -1,6 +1,7 @@
 .third-section {
     background-image: url(../img/bg-black-color.png), url(../img/bg-red-color.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .for-kolizey-container {

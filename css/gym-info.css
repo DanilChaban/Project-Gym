@@ -1,7 +1,6 @@
-.first-section {
+.main-first-section {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.123) 0%, rgba(0, 0, 0, 0.3) 100%), url(../img/bg-sport-header.jpg), #161616;
     background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .title-text {
