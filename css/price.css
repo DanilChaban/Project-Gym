@@ -55,6 +55,7 @@
 
 .card-price:hover {
     transform: rotate(3.5deg);
+    transition: 1s;
 }
 
 @media (max-width: 950px) {
